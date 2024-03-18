@@ -1,0 +1,61 @@
+body {
+	border: 2px solid gray;
+	padding: 10px;
+	width: fit-content;
+	font-family: "Annie Use Your Telescope";
+	font-weight: 400;
+	font-style: normal;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+	align-items: center;
+	height: 50px;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: none;
+}
+.postcard-header h1 {
+	width: 100%;
+	height: 50px;
+	margin: none;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
+input {
+	border: none;
+	border-bottom: 2px solid lightgray;
+	font-family: "Annie Use Your Telescope";
+	font-weight: 500;
+	font-style: normal;
+}
+p {
+	font-size: medium;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: lightgray;
+	padding: 3px;
+	transition: background-color 0.3s ease;
+}
+button:hover {
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+	background-color: lightseagreen;
+}
